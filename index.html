@@ -20,20 +20,19 @@
         <header></header>
 
         <main>
-            <!-- <img src="nightsky.png" alt="night sky" /> -->
             <div id="inputs-container">
                 <label for="question">
-                    <h2>What does your future hold? Ask the magic 8 ball...</h2>
+                    <h2>What does your future hold?<br />Ask the magic 8 ball...</h2>
                     <input type="text" name="question" id="question" />
                     <button id="ask">submit</button>
                 </label>
                 <div>
-                    <img src="./8_ball.png" alt="magic 8 ball" />
+                    <img id="8ball" src="./8_ball.png" alt="magic 8 ball" />
                 </div>
             </div>
             <div id="fortune-container" class="hide">
                 <h3>The Magic 8 ball says...</h3>
-                <p id="fortune"></p>
+                <h1 id="fortune"></h1>
                 <button id="reset">Try again</button>
             </div>
         </main>
