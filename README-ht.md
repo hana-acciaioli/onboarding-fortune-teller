@@ -4,9 +4,12 @@
 
 -   Header
 -   Question
+-   img
 -   Heads option
 -   Tails option
+
 -   Results
+
 -   Win or lose?
 -   play again button
 
@@ -22,3 +25,5 @@
 -   event listener triggered by buttons
 -   event function: selects random result
 -   output win or lose if matches result
+
+-   clears result
