@@ -6,10 +6,16 @@
 
 body {
     height: 100vh;
-    font-family: 'Rubik', san-serif;
+    font-family: 'Snell Roundhand', cursive;
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    color: white;
+    background-image: url('https://discovery.sndimg.com/content/dam/images/discovery/fullset/2020/4/2/nightsky2_getty.jpg.rend.hgtvcom.616.411.suffix/1585862428885.jpeg');
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/02/06/harry-potter-magical-wand.html" target="_blank" title="Harry Potter Magical Wand"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Harry Potter Magical Wand" style="position:absolute; top: 0px; right: 0px;" /></a>;
 }
 
 header {
@@ -22,14 +28,39 @@ header {
 
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#inputs-container img {
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.hide {
+    display: none;
+}
+
+.fortune {
+    font-style: italic;
+    font-size: large;
+}
+
+
